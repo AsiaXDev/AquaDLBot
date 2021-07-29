@@ -4,4 +4,5 @@
     "repository": "https://github.com/AsiaXDev/AquaDLBot",
     "logo": "https://c.wallhere.com/photos/b1/64/Kono_Subarashii_Sekai_ni_Shukufuku_wo_white_background_Aqua_KonoSuba_simple_background_anime_anime_girls_white_skin-1392705.jpg",
     "keywords": ["telegram", "python", "bot"]
+    "stack": "heroku-18"
   }
