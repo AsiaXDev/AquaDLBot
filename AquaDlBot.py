@@ -20,7 +20,7 @@ nezuko = Client(
 )
 
 
-gif = f"/home/raveen/Downloads/Aqua.gif"
+gif = f"./thumbnail/Aqua.gif"
 
 cap_text =  ''' <b>Hello senpai!</b> 
             <b> \n\n!! Im Aqua an URl UPLOADER BOT !! </b> 
@@ -38,7 +38,7 @@ async def start (client , message):
 def progress(current, total):
         print(f"{current * 100 / total:.1f}%") 
 
-thumbpic= f"/home/raveen/Downloads/aquadl.jpg"
+thumbpic= f"/thumbnail/aquadl.jpg"
 
 @nezuko.on_message(filters.command(["dl"]))
 async def download (client , message):
