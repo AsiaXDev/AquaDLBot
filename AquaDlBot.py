@@ -8,9 +8,9 @@ from os import getenv
 #Developed by @AsiaXDev
 #repo -> https://github.com/AsiaXDev/AquaDlBot
 
-BOT_TOKEN = os.getenv("BOT_TOKEN")
-API_ID = os.getenv("API_ID")
-API_HASH = os.getenv("API_HASH")
+BOT_TOKEN = os.getenv("bot_token")
+API_ID = os.getenv("api_id")
+API_HASH = os.getenv("api_hash")
 
 Aqua = Client(
     "my_bot",
