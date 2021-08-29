@@ -62,7 +62,7 @@ async def download (client , message):
     try:
         await message.reply_text(text = f"**Got link.. Downloading 🥺")
         url = message.reply_to_message.text
-        desti = '/home/raveen/Desktop/projects/cache'
+        desti = './cache/'
 
         disable_web_page_preview = True
         chat_id = message.chat.id
