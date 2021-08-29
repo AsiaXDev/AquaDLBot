@@ -1,2 +1,4 @@
 pyrogram
 wget
+pySmartDL==1.3.4
+tgcrypto
